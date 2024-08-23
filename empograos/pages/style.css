@@ -1,3 +1,9 @@
-.title {
-  text-align: center;
+.header {
+  background-color: green;
+  height: fit-content;
+}
+
+.logo-hearder {
+  height: 25px;
+  width: 25px;
 }
