@@ -1,9 +1,45 @@
-.header {
+body{
+  margin: 0;
   background-color: green;
-  height: fit-content;
 }
 
-.logo-hearder {
-  height: 25px;
-  width: 25px;
+.imagem {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+}
+
+.link {
+  margin-right: 40px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1,p, footer{
+  color: #fff;
+}
+
+.sobre {
+  margin: 20px;
+  marker-start: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
 }
