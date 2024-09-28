@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --lightblue: #b7e1f5;
+  --darkgray: #333333;
+  --darkblue: #003366;
+  --goldenyellow: #ffd700;
+  --vibrantred: #ff1e00;
+  --Deepnavyblue: #002244;
+  --Softbeige: #fff5e1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--lightblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: var(--darkblue);
+  margin: 20px;
+  font-family: "Pirata One", system-ui;
+}
+
+p {
+  color: var(--darkgray);
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+a:active {
+  color: var(--vibrantred);
+}
+
+.conteiner {
+  width: 1000px;
+}
+
+.navbar {
+  background-color: var(--Deepnavyblue);
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar-pages {
+  margin: 15px;
+  color: var(--goldenyellow);
+}
+
+.img-luffy {
+  width: 500px;
+  height: 500px;
+}
+
+.img-zoro {
+  width: 500px;
+  height: 500px;
+}
