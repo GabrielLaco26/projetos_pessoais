@@ -40,7 +40,7 @@ p {
 }
 
 a:active {
-  color: var(--vibrantred);
+  color: var(--red);
 }
 
 .conteiner01 {
